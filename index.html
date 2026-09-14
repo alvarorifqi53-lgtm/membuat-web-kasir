@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kasir sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="kasir">
+        <h1>kasir sederhana</h1>
+        
+        <label>nama barang</label>
+        <input type="text" id="namaBarang" placeholder="contoh: handphone">
+
+        <label>harga</label>
+        <input type="number" id="harga" placeholder="contoh: 5000">
+
+        <label>jumlah</label>
+        <input type="number" id="jumlah" placeholder="contoh: 2">
+
+        <button onclick="hitungTotal()">hitung total</button>
+
+        <div class="hasil">
+            <p>Total Harga:</p>
+            <h2 id="total">Rp 0</h2>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
